@@ -1,0 +1,100 @@
+
+.event-element-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:  center;
+  padding-top: 30px;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.day-month {
+  width: 150px;
+  height: 100px;
+  background-color: orange;
+  margin-right: 15px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.day-month p {
+  display: none;
+  font-size: 2px;
+  visibility: hidden;
+}
+
+.day-month h2 {
+  margin-left: 30px;
+}
+
+.event-description h4 {
+  font-size: 18px;
+}
+
+.event-description p {
+  font-size: 14px;
+  color: gray;
+}
+
+.event-container p {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+
+
+
+
+ /* first element styling */
+
+.event-element-container:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+.event-element-container:first-of-type .event-container {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  width: 700px;
+  border-radius: 3px;
+}
+.event-element-container:first-of-type .day-month {
+  background-color: orange;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.event-element-container:first-of-type h2 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-left: 300px;
+}
+.event-element-container:first-of-type h4 {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.event-element-container:first-of-type p {
+  font-size: 12px;
+  visibility: visible;
+  color: white;
+}
+
+.event-element-container:first-of-type h4 {
+ color: white;
+}
+
+.event-element-container:first-of-type .event-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
